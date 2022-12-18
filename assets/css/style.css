@@ -7845,7 +7845,7 @@ body.out .swiper-slide-active .portfolio-slider-fade {
         left: 0;
     }
     .portfolio-content-bg {
-        height: 100vh;
+        height: 100vw;
     }
 }
 
