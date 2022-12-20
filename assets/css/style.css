@@ -377,6 +377,12 @@
     width: 100px;
     margin-right: 40px;
 }
+.sports{
+    width: 80px;
+}
+.marg{
+    width: 130px;
+}
 @media (max-width: 768px) {
     .wrap-logo-nm{
         flex-direction: column;
