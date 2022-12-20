@@ -4257,6 +4257,12 @@ body,
     z-index: 3;
 }
 
+@media (orientation: portrait) {
+    .scroll-btn {
+      left: 10vw;
+    }
+  }
+
 .scroll-btn-flip-box {
     overflow: hidden;
     display: inline-block;
