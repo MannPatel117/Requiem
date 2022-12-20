@@ -383,6 +383,11 @@
 .marg{
     width: 130px;
 }
+
+.cc{
+    width: 140px;
+    height: 140px;
+}
 @media (max-width: 768px) {
     .wrap-logo-nm{
         flex-direction: column;
