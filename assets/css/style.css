@@ -6320,6 +6320,7 @@ button.mfp-close {
     display: inline-block;
     overflow: hidden;
     position: relative;
+    background-color: #010039;
 }
 
 .slider-overlay2:before {
