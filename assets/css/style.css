@@ -1404,6 +1404,9 @@ h6 {
         -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
     }
+    .custom-flex{
+        flex-basis: 0;
+    }
     .one-offset,
     .two-offset,
     .three-offset,
@@ -9483,4 +9486,6 @@ a:hover{
     background-position: center;
     z-index: 3;
   }
-  
+  .custom-center{
+    justify-content: center;
+  }
