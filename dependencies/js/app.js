@@ -165,13 +165,7 @@ var THEMEIM = THEMEIM || {};
 
 
 
-      $('.banner-five').each(function() {
-
-        var scene = document.getElementById('paralax-1');
-        var parallax = new Parallax(scene);
-
-      });
-    
+   
 
       $('.latest-album-btn .sm2_button').on('click', function() {
 
