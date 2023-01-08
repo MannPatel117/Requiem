@@ -155,8 +155,13 @@
 }
 
 .title-sponsor-hero{
-    height: 40px;
-    width: 250px;
+    height: 75px;
+    width: 150px;
+}
+
+.fs{
+    height: 75px;
+    width: 180px;
 }
 
 .presents{
@@ -167,7 +172,11 @@
     letter-spacing: 10px;
     margin-top: 2%;
 }
-
+.cosponsored{
+    margin-top: initial;
+    font-size: 1rem;
+    letter-spacing: 2px;
+}
 .presents::selection{
     background: #010039;
 }
@@ -672,6 +681,8 @@ h6 {
 .top-padding-60 {
     padding-top: 60px;
 }
+
+
 
 .bottom-padding-60 {
     padding-bottom: 60px;
@@ -5558,7 +5569,7 @@ body.anim .load-title-fill:after {
 .mfp-with-zoom .mfp-container,
 .mfp-with-zoom.mfp-bg {
     opacity: 0;
-    -webkit-backface-visibility: hidden;
+    /* -webkit-backface-visibility: hidden; */
     -webkit-transition: all 0.8s cubic-bezier(.858, .01, .068, .99);
     -o-transition: all 0.8s cubic-bezier(.858, .01, .068, .99);
     transition: all 0.8s cubic-bezier(.858, .01, .068, .99);
@@ -9500,3 +9511,4 @@ a:hover{
   .custom-center{
     justify-content: center;
   }
+
